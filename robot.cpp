@@ -1,8 +1,6 @@
 #include "robot.h"
 
-using namespace std
-
-BaseRobot::getPos(void)
+robotPosition BaseRobot::getPos(void)
 {
     return pos;
 }
